@@ -1,16 +1,17 @@
 # llmchatbot
 
 ## Objective:
-To provide information in form of questions and answers using OpenAI, Faiss and vectordb. Dash UI is used as User interface.
+To provide information in the form of questions and answers using OpenAI, Faiss, and vectordb. Dash UI is used as the User interface.
 
 ## Getting Started
-- User will provide question in UI. The question/s will be converted to embedding and send to llm vectordb. Then the vector db used simillarity search index and collect relavant words related to the question. Finally those embeddings will be converted words and then sentences and return as result:
+- User will provide questions in UI. The question/s will be converted to embedding and sent to llm vectordb. Then the vector db used a similarity search index and collected relevant words related to the question. Finally, those embeddings will be converted into words and then sentences and return as result:
+![UI1](https://github.com/vasant1012/llmchatbot/assets/52622703/9fab62db-ae95-4468-b25f-a9c2b923ae40)
 
-
-- User also can provide questions in form of batch questions e.g. .xlsx, .csv file. will get output using same mechanism added in same form.
+- User also can provide questions in the form of batch questions e.g. .xlsx, .csv file. will get output using the same mechanism added in the same form.
+![UI2](https://github.com/vasant1012/llmchatbot/assets/52622703/d8276a05-b50f-468d-860d-2e3899e89fb2)
 
 ## Tech Stack Involved
-- **OpenAI**: To get the relavant output using locally fined tuned vectordb. This product is trained on limited pdf data which are converted into chunks of sentenses. To get faster results from simillarity search index, locally the vectordb is stored.
-- **Plotly Dash UI**: The user interface works as mediun user input texts and llm embeddings.
+- **OpenAI**: To get the relevant output using locally fined tuned vectordb. This product is trained on limited pdf data which are converted into chunks of sentences. To get faster results from the similarity search index, locally the vectordb is stored.
+- **Plotly Dash UI**: The user interface works as medium user input texts and LLM embeddings.
 
 *This is the base version. 1.0*
